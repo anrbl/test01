@@ -1,0 +1,82 @@
+.sec {
+    padding: 150px 0;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec .title {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+}
+
+.sec .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+
+.sec .title p {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+/* se01 */
+.main_content .content {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content .content figure {
+    flex: 1;
+}
+
+.main_content .box {
+    margin: 0 0 30px 0;
+}
+
+
+
+/* se02 */
+.main_imgsection {
+    position: relative;
+    height: 100vh;
+    background: url(../images/background.jpg) no-repeat center center/cover;
+
+}
+
+.main_imgsection .content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: calc(1200px + ((1920px - 1200px) / 2));
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background: #fff;
+}
+
+
+/* se03 */
+.main_product .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #ddd;
+}
+
+.main_product .content .itm {
+    flex: 1 1 50%;
+    overflow: hidden;
+}
+
+.main_product .content .txt {
+    padding: 0 15px;
+}
